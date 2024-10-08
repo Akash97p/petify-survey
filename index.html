@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petify Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            margin-top: 15px;
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button {
+            padding: 10px 15px;
+            font-size: 1em;
+            color: white;
+            background-color: #3C3C40;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #36D39A;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://lh5.googleusercontent.com/T5EGcO-Zwns0Emer_6pKPntUjQCGrhrODrnpffEs4ZV3P4CuEWQSB42WXQvK1aoZ1WXYiQ_9DCWSzy5oAHfQuEdJcT-SrjA7jt409gyNNTOXyYyyyQcyWYJAuZwIQ6i8oA=w721" alt="Petify">
+        <h1>Welcome to Petify</h1>
+        <p>Connecting pet owners with trusted caretakers. Help us shape the future of pet care by participating in our survey.</p>
+        <div class="buttons">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHjIr8q_Qieagooq7p3u9sZN1MGN0MQItZ9FFvfUJ93cVvXQ/viewform" class="button">For Pet Owners</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdM8EbthTYNH_Q3Rq3ZnNT8S-AUAOylSZkBkJcnRNK87xRRnQ/viewform" class="button">For Caretakers</a>
+        </div>
+    </div>
+</body>
+</html>
